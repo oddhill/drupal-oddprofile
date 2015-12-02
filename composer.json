@@ -1,0 +1,5 @@
+{
+  "name": "drupal/odddrupal",
+  "description": "Custom installation profile for regular sites by Odd Hill.",
+  "type": "drupal-profile"
+}
