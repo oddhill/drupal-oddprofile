@@ -1,7 +1,7 @@
 <?php
+
 /**
  * @file
- * Enables modules and site configuration for the odd drupal site installation.
+ * Main file for the Drupal 8 Odd Profile base profile.
  */
 
-// Add any custom code here like hook implementations.

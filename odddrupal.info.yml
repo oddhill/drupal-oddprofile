@@ -1,8 +1,15 @@
-name: Odd Drupal
+name: Odd Profile
 type: profile
-description: "Base profile that should be used for every site if there's no specific installation profile available."
+description: "Base profile that should be used for every site if there isn't any specific requirements."
 core: 8.x
 dependencies:
+  # Contrib modules
+  - block_visibility_groups
+  - devel
+  - metatag
+  - pathauto
+  - token
+  # Core modules
   - node
   - block
   - breakpoint
