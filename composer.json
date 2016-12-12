@@ -12,7 +12,7 @@
   "minimum-stability": "dev",
   "require": {
     "drupal/block_visibility_groups": "~1.0",
-    "drupal/devel": "~1.0@alpha",
+    "drupal/devel": "~1.0@beta",
     "drupal/masquerade": "2.0@beta",
     "drupal/metatag": "~1.0@beta",
     "drupal/pathauto": "~1.0@beta",
