@@ -1,4 +1,6 @@
 .DS_store
+.vscode
+.idea
 composer.lock
 core
 modules
