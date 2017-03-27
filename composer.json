@@ -11,12 +11,12 @@
   },
   "minimum-stability": "dev",
   "require": {
-    "drupal/block_visibility_groups": "~1.1",
-    "drupal/devel": "~1.0@rc",
-    "drupal/masquerade": "~2.0@beta",
-    "drupal/metatag": "~1.0",
-    "drupal/pathauto": "~1.0@rc",
-    "drupal/token": "~1.0@rc",
-    "drupal/personas": "~1.0@beta"
+    "drupal/block_visibility_groups": "^1.1",
+    "drupal/devel": "^1.0.0@rc",
+    "drupal/masquerade": "^2.0.0@beta",
+    "drupal/metatag": "^1.0.0",
+    "drupal/pathauto": "^1.0.0@rc",
+    "drupal/token": "^1.0.0@rc",
+    "drupal/personas": "^1.0.0@beta"
   }
 }
