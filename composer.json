@@ -9,6 +9,7 @@
       "url": "https://packages.drupal.org/8"
     }
   },
+  "prefer-stable": true,
   "minimum-stability": "dev",
   "require": {
     "drupal/block_visibility_groups": "^1.1",
