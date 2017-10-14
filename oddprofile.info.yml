@@ -4,11 +4,12 @@ description: "Base profile that should be used for every site if there isn't any
 core: 8.x
 dependencies:
   # Contrib modules
-  - block_visibility_groups
   - devel
+  - masquerade
   - metatag
   - pathauto
-  - personas
+  - redirect
+  - reroute_email
   - token
   # Core modules
   - node
