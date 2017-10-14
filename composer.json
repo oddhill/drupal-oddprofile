@@ -10,7 +10,7 @@
     }
   },
   "prefer-stable": true,
-  "minimum-stability": "dev",
+  "minimum-stability": "beta",
   "require": {
     "drupal/devel": "^1.0.0@rc",
     "drupal/masquerade": "^2.0.0@beta",
