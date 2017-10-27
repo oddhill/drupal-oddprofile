@@ -18,6 +18,7 @@
     "drupal/pathauto": "^1.0",
     "drupal/redirect": "^1.0.0@beta",
     "drupal/reroute_email": "^1.0.0@beta",
-    "drupal/token": "^1.0"
+    "drupal/token": "^1.0",
+    "drupal/module_filter": "^3.1"
   }
 }
