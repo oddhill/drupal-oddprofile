@@ -4,7 +4,6 @@ description: "Base profile that should be used for every site if there isn't any
 core: 8.x
 dependencies:
   # Contrib modules
-  - devel
   - masquerade
   - metatag
   - module_filter
