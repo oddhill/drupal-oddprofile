@@ -2,7 +2,7 @@ name: Odd Profile
 type: profile
 description: "Base profile that should be used for every site if there isn't any specific requirements."
 core_version_requirement: '^8.8 || ^9'
-version: 2.0.4
+version: 2.0.5
 dependencies:
   # Contrib modules
   - masquerade
