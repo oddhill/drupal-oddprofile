@@ -1,8 +1,7 @@
 # Odd Profile
 
-This profile is used as the base profile for all of our Drupal 8+ sites and all
-our specialized profiles will extend this profile.
-
+This profile is used as the base profile for all of our Drupal 8/9 sites and
+all our specialized profiles will extend this profile.
 
 ## Getting started
 
