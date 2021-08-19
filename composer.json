@@ -1,24 +1,27 @@
 {
-  "name": "oddhill/oddprofile",
-  "description": "The base profile used for all our Drupal sites.",
-  "type": "drupal-profile",
-  "license": "MIT",
-  "repositories": {
-    "drupal": {
-      "type": "composer",
-      "url": "https://packages.drupal.org/8"
+    "name": "oddhill/oddprofile",
+    "description": "The base profile used for all our Drupal sites.",
+    "type": "drupal-profile",
+    "license": "MIT",
+    "repositories": {
+        "drupal": {
+            "type": "composer",
+            "url": "https://packages.drupal.org/8"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "prefer-stable": true,
+    "minimum-stability": "beta",
+    "require": {
+        "drupal/devel": "^4.1.1",
+        "drupal/masquerade": "^2.0.0@beta",
+        "drupal/metatag": "^1.16",
+        "drupal/module_filter": "^3.2",
+        "drupal/pathauto": "^1.8",
+        "drupal/redirect": "^1.6",
+        "drupal/reroute_email": "^2.0.2",
+        "drupal/token": "^1.9"
     }
-  },
-  "prefer-stable": true,
-  "minimum-stability": "beta",
-  "require": {
-    "drupal/devel": "^4.1.1",
-    "drupal/masquerade": "^2.0.0@beta",
-    "drupal/metatag": "^1.16",
-    "drupal/pathauto": "^1.8",
-    "drupal/redirect": "^1.6",
-    "drupal/reroute_email": "^2.0.2",
-    "drupal/token": "^1.9",
-    "drupal/module_filter": "^3.2"
-  }
 }
