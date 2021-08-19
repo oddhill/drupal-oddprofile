@@ -16,35 +16,35 @@ dependencies:
   - reroute_email
   - token
   # Core modules
-  - node
+  - automated_cron
   - block
+  - block_content
   - breakpoint
   - ckeditor
   - config
   - contextual
-  - menu_link_content
   - datetime
-  - block_content
-  - quickedit
+  - dblog
+  - dynamic_page_cache
   - editor
+  - field_ui
+  - file
   - help
   - image
   - locale
+  - menu_link_content
   - menu_ui
+  - node
   - options
-  - path
   - page_cache
-  - dynamic_page_cache
-  - taxonomy
-  - dblog
-  - shortcut
-  - toolbar
-  - field_ui
-  - file
+  - path
+  - quickedit
   - rdf
+  - shortcut
+  - taxonomy
+  - toolbar
+  - tour
   - views
   - views_ui
-  - tour
-  - automated_cron
 themes:
   - seven
