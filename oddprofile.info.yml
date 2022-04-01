@@ -25,7 +25,6 @@ dependencies:
   - contextual
   - datetime
   - dblog
-  - dynamic_page_cache
   - editor
   - field_ui
   - file
@@ -36,7 +35,6 @@ dependencies:
   - menu_ui
   - node
   - options
-  - page_cache
   - path
   - quickedit
   - rdf
