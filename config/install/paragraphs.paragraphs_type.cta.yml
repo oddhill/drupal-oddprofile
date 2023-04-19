@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: cta
+label: 'Call to action'
+icon_uuid: null
+icon_default: null
+description: 'A section used to highlight something with the option for specifying actions the viewer should take.'
+behavior_plugins: {  }

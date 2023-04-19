@@ -1,0 +1,9 @@
+langcode: en
+status: true
+dependencies: {  }
+id: text
+label: Text
+icon_uuid: null
+icon_default: null
+description: 'A section containing a text field that lets the content editor add rich text content.'
+behavior_plugins: {  }
