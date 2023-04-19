@@ -1,50 +1,69 @@
-name: Odd Profile
+name: "Odd Profile"
+description: "Base profile that should be used for most sites."
 type: profile
-description: "Base profile that should be used for every site if there isn't any specific requirements."
-core_version_requirement: '^8.8 || ^9'
-version: 2.0.6
-dependencies:
-  # Contrib modules
-  - admin_toolbar
-  - admin_toolbar_links_access_filter
-  - admin_toolbar_tools
-  - masquerade
-  - metatag
-  - module_filter
-  - pathauto
-  - redirect
-  - reroute_email
-  - token
-  # Core modules
-  - automated_cron
-  - block
-  - block_content
-  - breakpoint
-  - ckeditor
-  - config
-  - contextual
-  - datetime
-  - dblog
-  - dynamic_page_cache
-  - editor
-  - field_ui
-  - file
-  - help
-  - image
-  - locale
-  - menu_link_content
-  - menu_ui
-  - node
-  - options
-  - page_cache
-  - path
-  - quickedit
-  - rdf
-  - shortcut
-  - taxonomy
-  - toolbar
-  - tour
-  - views
-  - views_ui
+core_version_requirement: "^9.5 | ^10.0"
+version: "3.0"
+install:
+  - admin_toolbar_links_access_filter:admin_toolbar_links_access_filter
+  - admin_toolbar_tools:admin_toolbar_tools
+  - block_field:block_field
+  - core:admin_toolbar
+  - core:block
+  - core:breakpoint
+  - core:ckeditor5
+  - core:config_translation
+  - core:content_moderation
+  - core:content_translation
+  - core:contextual
+  - core:datetime
+  - core:dblog
+  - core:dynamic_page_cache
+  - core:editor
+  - core:field
+  - core:field_ui
+  - core:file
+  - core:filter
+  - core:gin_login
+  - core:help
+  - core:image
+  - core:inline_form_errors
+  - core:language
+  - core:link
+  - core:locale
+  - core:media
+  - core:media_library
+  - core:menu_link_content
+  - core:menu_ui
+  - core:node
+  - core:page_cache
+  - core:path
+  - core:path_alias
+  - core:responsive_image
+  - core:statistics
+  - core:syslog
+  - core:taxonomy
+  - core:text
+  - core:toolbar
+  - core:update
+  - core:views
+  - core:views_ui
+  - core:workflows
+  - gin_toolbar:gin_toolbar
+  - jquery_ui_autocomplete:jquery_ui_autocomplete
+  - jquery_ui_menu:jquery_ui_menu
+  - jquery_ui:jquery_ui
+  - mail_login:mail_login
+  - masquerade:masquerade
+  - menu_admin_per_menu:menu_admin_per_menu
+  - metatag:metatag
+  - module_filter:module_filter
+  - paragraphs:paragraphs
+  - pathauto:pathauto
+  - redirect:redirect
+  - scheduler:scheduler
+  - simple_sitemap:simple_sitemap
+  - token:token
 themes:
-  - seven
+  - claro
+  - gin
+  - stark

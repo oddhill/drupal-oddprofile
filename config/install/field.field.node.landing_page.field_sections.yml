@@ -1,0 +1,40 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_sections
+    - node.type.landing_page
+    - paragraphs.paragraphs_type.block
+    - paragraphs.paragraphs_type.cta
+    - paragraphs.paragraphs_type.text
+  module:
+    - entity_reference_revisions
+id: node.landing_page.field_sections
+field_name: field_sections
+entity_type: node
+bundle: landing_page
+label: Sections
+description: 'Add one or more sections to create the landing page content.'
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  handler: 'default:paragraph'
+  handler_settings:
+    target_bundles:
+      block: block
+      cta: cta
+      text: text
+    negate: 0
+    target_bundles_drag_drop:
+      block:
+        weight: -7
+        enabled: true
+      cta:
+        weight: -6
+        enabled: true
+      text:
+        weight: -5
+        enabled: true
+field_type: entity_reference_revisions

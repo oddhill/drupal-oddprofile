@@ -1,0 +1,12 @@
+langcode: en
+status: true
+dependencies: {  }
+id: document
+label: Document
+description: "A document uploaded to the site that can be used on content throughout the site.\t"
+source: file
+queue_thumbnail_downloads: false
+new_revision: false
+source_configuration:
+  source_field: field_media_file
+field_map: {  }

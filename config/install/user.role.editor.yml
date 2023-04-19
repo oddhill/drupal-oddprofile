@@ -1,0 +1,91 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - filter.format.html
+    - media.type.document
+    - node.type.landing_page
+    - node.type.news
+    - node.type.page
+    - taxonomy.vocabulary.tags
+    - workflows.workflow.content
+  module:
+    - content_moderation
+    - content_translation
+    - contextual
+    - filter
+    - media
+    - menu_admin_per_menu
+    - node
+    - path
+    - redirect
+    - scheduler
+    - system
+    - taxonomy
+    - toolbar
+id: editor
+label: Editor
+weight: -8
+is_admin: null
+permissions:
+  - 'access administration pages'
+  - 'access content overview'
+  - 'access contextual links'
+  - 'access media overview'
+  - 'access toolbar'
+  - 'administer main menu items'
+  - 'administer nodes'
+  - 'administer redirects'
+  - 'create document media'
+  - 'create landing_page content'
+  - 'create media'
+  - 'create news content'
+  - 'create page content'
+  - 'create terms in tags'
+  - 'create url aliases'
+  - 'delete all revisions'
+  - 'delete any document media'
+  - 'delete any landing_page content'
+  - 'delete any media'
+  - 'delete any news content'
+  - 'delete any page content'
+  - 'delete landing_page revisions'
+  - 'delete news revisions'
+  - 'delete own document media'
+  - 'delete own landing_page content'
+  - 'delete own news content'
+  - 'delete own page content'
+  - 'delete page revisions'
+  - 'delete terms in tags'
+  - 'edit any document media'
+  - 'edit any landing_page content'
+  - 'edit any news content'
+  - 'edit any page content'
+  - 'edit own document media'
+  - 'edit own landing_page content'
+  - 'edit own news content'
+  - 'edit own page content'
+  - 'edit terms in tags'
+  - 'revert all revisions'
+  - 'revert landing_page revisions'
+  - 'revert news revisions'
+  - 'revert page revisions'
+  - 'schedule publishing of nodes'
+  - 'translate editable entities'
+  - 'translate news node'
+  - 'translate tags taxonomy_term'
+  - 'update any media'
+  - 'use content transition archive'
+  - 'use content transition create_new_draft'
+  - 'use content transition publish'
+  - 'use text format html'
+  - 'view all media revisions'
+  - 'view all revisions'
+  - 'view any unpublished content'
+  - 'view landing_page revisions'
+  - 'view latest version'
+  - 'view news revisions'
+  - 'view own unpublished content'
+  - 'view page revisions'
+  - 'view scheduled content'
+  - 'view the administration theme'
