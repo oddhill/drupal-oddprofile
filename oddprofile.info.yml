@@ -48,6 +48,8 @@ install:
   - core:views
   - core:views_ui
   - core:workflows
+  - csp:csp
+  - csp_extras:csp_extras
   - gin_toolbar:gin_toolbar
   - jquery_ui_autocomplete:jquery_ui_autocomplete
   - jquery_ui_menu:jquery_ui_menu
