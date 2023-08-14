@@ -22,11 +22,19 @@ enforce:
   directives:
     default-src:
       base: self
+    img-src:
+      base: self
+      sources:
+        - "data:"
     object-src:
       base: none
     style-src:
       base: self
+      flags:
+        - unsafe-inline
     style-src-elem:
       base: self
+      flags:
+        - unsafe-inline
   reporting:
     plugin: none
