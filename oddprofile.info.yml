@@ -7,6 +7,7 @@ install:
   - admin_toolbar_links_access_filter:admin_toolbar_links_access_filter
   - admin_toolbar_tools:admin_toolbar_tools
   - block_field:block_field
+  - coffee:coffee
   - core:admin_toolbar
   - core:block
   - core:breakpoint
@@ -48,8 +49,8 @@ install:
   - core:views
   - core:views_ui
   - core:workflows
-  - csp:csp
   - csp_extras:csp_extras
+  - csp:csp
   - gin_toolbar:gin_toolbar
   - jquery_ui_autocomplete:jquery_ui_autocomplete
   - jquery_ui_menu:jquery_ui_menu
