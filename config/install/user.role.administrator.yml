@@ -10,6 +10,7 @@ dependencies:
     - taxonomy.vocabulary.tags
     - workflows.workflow.content
   module:
+    - coffee
     - content_moderation
     - content_translation
     - contextual
@@ -29,6 +30,7 @@ weight: -7
 is_admin: null
 permissions:
   - 'access administration pages'
+  - 'access coffee'
   - 'access content overview'
   - 'access contextual links'
   - 'access media overview'
