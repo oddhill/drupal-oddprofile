@@ -65,6 +65,7 @@ install:
   - redirect:redirect
   - scheduler:scheduler
   - simple_sitemap:simple_sitemap
+  - svg_image_field:svg_image_field
   - token:token
 themes:
   - claro
