@@ -56,6 +56,7 @@ install:
   - jquery_ui_autocomplete:jquery_ui_autocomplete
   - jquery_ui_menu:jquery_ui_menu
   - jquery_ui:jquery_ui
+  - linkit:linkit
   - mail_login:mail_login
   - masquerade:masquerade
   - menu_admin_per_menu:menu_admin_per_menu
