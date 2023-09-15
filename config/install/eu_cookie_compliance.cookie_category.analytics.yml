@@ -1,0 +1,8 @@
+langcode: en
+status: true
+dependencies: {  }
+id: analytics
+label: Analytics
+description: 'Cookies that send data on user behavior anonymously to a software for analysis. The data helps us to understand the user and improve the website.'
+checkbox_default_state: unchecked
+weight: -8

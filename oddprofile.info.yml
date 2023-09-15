@@ -51,6 +51,7 @@ install:
   - core:workflows
   - csp_extras:csp_extras
   - csp:csp
+  - eu_cookie_compliance:eu_cookie_compliance
   - gin_toolbar:gin_toolbar
   - jquery_ui_autocomplete:jquery_ui_autocomplete
   - jquery_ui_menu:jquery_ui_menu
