@@ -1,8 +1,8 @@
 name: Odd Profile
 type: profile
 description: "Base profile that should be used for every site if there isn't any specific requirements."
-core_version_requirement: '^8.8 || ^9'
-version: 2.0.6
+core_version_requirement: "^9.5 | ^10.0"
+version: 2.0.8
 dependencies:
   # Contrib modules
   - admin_toolbar
@@ -36,8 +36,6 @@ dependencies:
   - node
   - options
   - path
-  - quickedit
-  - rdf
   - shortcut
   - taxonomy
   - toolbar
@@ -45,4 +43,4 @@ dependencies:
   - views
   - views_ui
 themes:
-  - seven
+  - claro
