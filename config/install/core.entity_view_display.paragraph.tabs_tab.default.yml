@@ -1,0 +1,30 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.paragraph.tabs_tab.field_content
+    - field.field.paragraph.tabs_tab.field_title
+    - paragraphs.paragraphs_type.tabs_tab
+  module:
+    - text
+id: paragraph.tabs_tab.default
+targetEntityType: paragraph
+bundle: tabs_tab
+mode: default
+content:
+  field_content:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_title:
+    type: string
+    label: hidden
+    settings:
+      link_to_entity: false
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden: {  }

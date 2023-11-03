@@ -6,6 +6,7 @@ dependencies:
     - node.type.landing_page
     - paragraphs.paragraphs_type.block
     - paragraphs.paragraphs_type.cta
+    - paragraphs.paragraphs_type.tabs
     - paragraphs.paragraphs_type.text
   module:
     - entity_reference_revisions
@@ -26,6 +27,7 @@ settings:
       block: block
       cta: cta
       text: text
+      tabs: tabs
     negate: 0
     target_bundles_drag_drop:
       block:
@@ -34,6 +36,12 @@ settings:
       cta:
         weight: -6
         enabled: true
+      tabs:
+        weight: 8
+        enabled: true
+      tabs_tab:
+        weight: 9
+        enabled: false
       text:
         weight: -5
         enabled: true
