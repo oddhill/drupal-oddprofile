@@ -6,7 +6,6 @@ version: 2.0.8
 dependencies:
   # Contrib modules
   - admin_toolbar
-  - admin_toolbar_links_access_filter
   - admin_toolbar_tools
   - masquerade
   - metatag
