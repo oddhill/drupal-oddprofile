@@ -14,7 +14,6 @@ dependencies:
     - content_moderation
     - content_translation
     - contextual
-    - eu_cookie_compliance
     - filter
     - media
     - menu_admin_per_menu
@@ -60,7 +59,6 @@ permissions:
   - 'delete own page content'
   - 'delete page revisions'
   - 'delete terms in tags'
-  - 'display eu cookie compliance popup'
   - 'edit any document media'
   - 'edit any landing_page content'
   - 'edit any news content'
