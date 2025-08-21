@@ -1,8 +1,0 @@
-langcode: en
-status: true
-dependencies: {  }
-id: necessary
-label: 'Strictly necessary'
-description: 'Cookies required for basic functionality of the website.'
-checkbox_default_state: required
-weight: -9
