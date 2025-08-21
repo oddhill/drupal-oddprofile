@@ -40,7 +40,6 @@ install:
   - core:path
   - core:path_alias
   - core:responsive_image
-  - core:statistics
   - core:syslog
   - core:taxonomy
   - core:text
