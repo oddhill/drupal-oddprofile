@@ -1,6 +1,6 @@
 # Odd Profile
 
-This profile is used as the base profile for all of our Drupal 9/10 sites.
+This profile is used as the base profile for all of our Drupal 10/11 sites.
 This profile contains base functionality needed on most websites.
 
 ## Getting started
