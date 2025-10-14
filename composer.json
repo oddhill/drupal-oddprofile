@@ -25,7 +25,7 @@
         "drupal/gin": "^3.0@RC",
         "drupal/gin_login": "^2.0",
         "drupal/gin_toolbar": "^1.0@RC",
-        "drupal/linkit": "^6.1",
+        "drupal/linkit": "^7.0",
         "drupal/mail_login": "^3.0",
         "drupal/masquerade": "^2.0@RC",
         "drupal/menu_admin_per_menu": "^1.5",

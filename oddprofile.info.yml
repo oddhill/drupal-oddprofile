@@ -2,7 +2,7 @@ name: "Odd Profile"
 description: "Base profile that should be used for most sites."
 type: profile
 core_version_requirement: "^9.5 | ^10.0"
-version: "3.3"
+version: "3.4"
 install:
   - admin_toolbar_links_access_filter:admin_toolbar_links_access_filter
   - admin_toolbar_tools:admin_toolbar_tools
