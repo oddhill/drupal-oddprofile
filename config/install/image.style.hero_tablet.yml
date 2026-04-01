@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: hero_tablet
+label: 'Hero Tablet'
+effects:
+  24418e27-dc41-49b2-bdf1-fee7717dd299:
+    uuid: 24418e27-dc41-49b2-bdf1-fee7717dd299
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1024
+      height: 576
+      anchor: center-center

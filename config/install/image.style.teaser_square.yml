@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: teaser_square
+label: 'Teaser square'
+effects:
+  a2d1c6f7-ea78-4a3f-b382-73f569c4b37f:
+    uuid: a2d1c6f7-ea78-4a3f-b382-73f569c4b37f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 300
+      height: 300
+      anchor: center-center

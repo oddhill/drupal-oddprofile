@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: hero_desktop
+label: 'Hero Desktop'
+effects:
+  ba25c2cd-f16e-4cf7-afa1-c3f23060e55b:
+    uuid: ba25c2cd-f16e-4cf7-afa1-c3f23060e55b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1920
+      height: 1080
+      anchor: center-center

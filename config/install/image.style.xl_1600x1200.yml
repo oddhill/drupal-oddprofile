@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: xl_1600x1200
+label: 'Size XL (1600x1200)'
+effects:
+  ef5db679-4065-41b8-a581-af37288f74e6:
+    uuid: ef5db679-4065-41b8-a581-af37288f74e6
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1600
+      height: 1200
+      anchor: center-center

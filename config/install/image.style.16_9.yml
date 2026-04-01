@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: '16_9'
+label: '16:9'
+effects:
+  69e80663-f158-4c01-bac0-156fbc3f9ec7:
+    uuid: 69e80663-f158-4c01-bac0-156fbc3f9ec7
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1920
+      height: 1080
+      anchor: center-center

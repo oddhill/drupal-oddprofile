@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: '1_1'
+label: '1:1'
+effects:
+  6d56caea-baaf-464a-bed9-469cc673424b:
+    uuid: 6d56caea-baaf-464a-bed9-469cc673424b
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 600
+      height: 600
+      anchor: center-center

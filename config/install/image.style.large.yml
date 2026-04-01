@@ -2,7 +2,7 @@ langcode: en
 status: true
 dependencies: {  }
 name: large
-label: 'Large (480×480)'
+label: 'Size Large (480×480)'
 effects:
   ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d:
     uuid: ddd73aa7-4bd6-4c85-b600-bdf2b1628d1d

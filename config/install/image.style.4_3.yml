@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: '4_3'
+label: '4:3'
+effects:
+  175c228e-400d-498c-8c2e-0be54e9dae7c:
+    uuid: 175c228e-400d-498c-8c2e-0be54e9dae7c
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 1024
+      height: 768
+      anchor: center-center

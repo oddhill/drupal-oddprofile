@@ -1,0 +1,14 @@
+langcode: en
+status: true
+dependencies: {  }
+name: teaser_landscape
+label: 'Teaser landscape'
+effects:
+  f43ead38-de43-45ab-97fb-562b93061b7f:
+    uuid: f43ead38-de43-45ab-97fb-562b93061b7f
+    id: image_scale_and_crop
+    weight: 1
+    data:
+      width: 400
+      height: 225
+      anchor: center-center
