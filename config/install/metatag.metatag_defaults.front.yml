@@ -5,4 +5,6 @@ id: front
 label: 'Front page'
 tags:
   canonical_url: '[site:url]'
+  description: '[current-page:summary]'
   shortlink: '[site:url]'
+  title: '[current-page:title] | [site:name]'

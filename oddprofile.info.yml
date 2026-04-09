@@ -58,6 +58,7 @@ install:
   - masquerade:masquerade
   - menu_admin_per_menu:menu_admin_per_menu
   - metatag:metatag
+  - metatag_open_graph:metatag_open_graph
   - module_filter:module_filter
   - paragraphs:paragraphs
   - pathauto:pathauto

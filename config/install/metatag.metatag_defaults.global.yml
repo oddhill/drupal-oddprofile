@@ -5,4 +5,5 @@ id: global
 label: Global
 tags:
   canonical_url: '[current-page:url]'
+  description: '[current-page:summary]'
   title: '[current-page:title] | [site:name]'
